@@ -25,7 +25,7 @@ let package = Package(
     .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "1.0.1"),
     .package(url: "https://github.com/pointfreeco/swift-clocks", from: "1.0.3"),
     .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-issue-reporting", from: "1.2.0"),
+    .package(url: "https://github.com/pointfreeco/swift-issue-reporting", exact: "1.1.2"),
     .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0"..<"601.0.0-prerelease"),
   ],
   targets: [
